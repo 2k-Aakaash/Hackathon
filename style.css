@@ -79,8 +79,9 @@ body{
     padding: 12px 12px;
 }
 
-.login-a, .signup-a {
+.login-a, .signin-a{
     text-decoration: none;
+    color: #000;
 }
 
 .signup-button{
