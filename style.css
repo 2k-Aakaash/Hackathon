@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Tommy-Light';
+    src: url('https://ik.imagekit.io/026k2i7ys/fonts/MADE%20TOMMY%20Light_PERSONAL%20USE.woff?updatedAt=1705584800309') format('woff');
+    }
+
+@font-face {
+    font-family: 'Tommy-Black';
+    src: url('https://ik.imagekit.io/026k2i7ys/fonts/MADE%20TOMMY%20Black_PERSONAL%20USE.woff?updatedAt=1705584800352') format('woff');
+    }
+
+@font-face {
+    font-family: 'Tommy-Medium';
+    src: url('https://ik.imagekit.io/026k2i7ys/fonts/MADE%20TOMMY%20Medium_PERSONAL%20USE.woff?updatedAt=1705584800728') format('woff');
+    }
+
+@font-face {
+    font-family: 'Tommy-ExtraBold';
+    src: url('https://ik.imagekit.io/026k2i7ys/fonts/MADE%20TOMMY%20ExtraBold_PERSONAL%20USE.woff?updatedAt=1705584800762') format('woff');
+    } 
+
+@font-face {
+    font-family: 'Tommy-Regular';
+    src: url('https://ik.imagekit.io/026k2i7ys/fonts/MADE%20TOMMY%20Regular_PERSONAL%20USE.woff?updatedAt=1705584800828') format('woff');
+    } 
+
+@font-face {
+    font-family: 'Tommy-Thin';
+    src: url('https://ik.imagekit.io/026k2i7ys/fonts/MADE%20TOMMY%20Thin_PERSONAL%20USE.woff?updatedAt=1705584800910') format('woff');
+    }
+
+@font-face {
+    font-family: 'Tommy-Bold';
+    src: url('https://ik.imagekit.io/026k2i7ys/fonts/MADE%20TOMMY%20Thin_PERSONAL%20USE.woff?updatedAt=1705584800910') format('woff');
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
+*{
+    font-family: 'Tommy-Regular';
+}
+
+body{
+    background-color: rgb(254 254 254);
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 50px;
+    align-items: center;
+}
+
+.nav-links{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+
+.logo-text{
+    font-size: 26px;
+    font-family: 'Raleway';
+}
+
+
+.login-button{
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: 'Tommy-Regular';
+    margin-right: 15px;
+    transition: 0.2s ease-in-out padding;
+}
+
+.login-button:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px 12px;
+}
+
+.signup-button{
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 12px 12px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Tommy-Regular';
+    transition: 0.1s ease-in-out scale;
+}
+
+.signup-button:hover{
+    cursor: pointer;
+    scale: 1.03;
+}
+
+.book-room{
+    width: 85%;
+    margin: 20px 50px;
+    padding: 20px 50px;
+    border-radius: 30px;
+    height: 200px;
+    background-color: rgb(247 245 241);
+}
+
+.h2-span{
+    font-family: 'Tommy-ExtraBold';
+}
+
+.booking-button{
+    padding: 10px 30px;
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    color: #fff;
+    background-color: rgb(121 77 101);
+}
+
+.booking-cta{
+    margin-top: 40px;
+}
+
+.booked-rooms-section{
+    width: 34%;
+    background-color: rgb(247 245 241);
+    margin: 0 20px;
+    padding: 20px 50px;
+    border-radius: 30px;
+    height: 200px;
+    background-color: rgb(247 245 241);
+    display: inline-block;
+    flex: 1;
+}
+
+.cancellation-section{
+    display: inline-block;
+    width: 36%;
+    margin: 0 20px;
+    background-color: rgb(247 245 241);
+    padding: 20px 50px;
+    border-radius: 30px;
+    height: 200px;
+    background-color: rgb(247 245 241);
+    flex: 1;
+}
+
+.two-divs-container{
+    margin: 20px 50px;
+    display: flex;
+    width: 93%;
+}
+
+.booked-rooms-button{
+    padding: 10px 30px;
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    color: #fff;
+    background-color: rgb(121 77 101);
+}
+
+.cancel-button{
+    padding: 10px 30px;
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    color: #fff;
+    background-color: rgb(121 77 101);
+}

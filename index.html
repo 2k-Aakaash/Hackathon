@@ -4,10 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hackathon</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="main-container-div">
+        <div class="header">
+            <div class="logo-container">
+                <p class="logo-text">Room Booking</p>
+            </div>
+            <div class="nav-links">
+                <div class="nav1">NAV 1</div>
+                <div class="nav2">NAV 2</div>
+                <div class="nav3">NAV 3</div>
+            </div>
+            <div class="buttons">
+                <button class="login-button">Login</button>
+                <button class="signup-button">Sign Up</button>
+            </div>
+        </div>
+        <div class="first-container">
+            <div class="first-card">
+                <div class="book-room">
+                    <h2>Book Your <span class="h2-span">Hospital Room</span> with Ease</h2>
+                    <p>Experience hassle-free hospital room reservations with our state-of-the-art system. Reserve your preferred room effortlessly.</p>
+                    <div class="booking-cta">
+                        <button onclick="redirectToBookingPage()" class="booking-button">Start Booking</button>
+                    </div>
+                </div>
+                <div class="two-divs-container">
+                <div class="booked-rooms-section">
+                    <h2>View Booked Hospital Rooms</h2>
+                    <p>Explore details of hospital booked rooms. Get a complete overview of reservations for quick access to essential information.</p>
+                    <div class="view-bookings-cta">
+                      <button onclick="redirectToBookedRoomsPage()" class="booked-rooms-button">View Booked Rooms</button>
+                    </div>
+                  </div>
+                  <div class="cancellation-section">
+                    <h2>Need to Cancel a Reservation?</h2>
+                    <p>We understand plans change. If you need to cancel a booked room, our user-friendly cancellation process makes it simple and quick. Manage your reservations effortlessly.</p>
+                    <div class="cancel-booking-cta">
+                      <button onclick="redirectToCancellationPage()" class="cancel-button">Cancel a Reservation</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
