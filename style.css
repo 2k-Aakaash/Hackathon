@@ -123,6 +123,7 @@ body{
     border: 1px solid #000;
     border-radius: 15px;
     color: #fff;
+    cursor: pointer;
     background-color: rgb(121 77 101);
 }
 
@@ -166,6 +167,7 @@ body{
     border: 1px solid #000;
     border-radius: 15px;
     color: #fff;
+    cursor: pointer;
     background-color: rgb(121 77 101);
 }
 
@@ -175,5 +177,6 @@ body{
     border: 1px solid #000;
     border-radius: 15px;
     color: #fff;
+    cursor: pointer;
     background-color: rgb(121 77 101);
 }
