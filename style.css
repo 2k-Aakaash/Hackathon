@@ -126,6 +126,9 @@ body{
     cursor: pointer;
     background-color: rgb(121 77 101);
 }
+.booking-button a{
+    text-decoration:none;
+}
 
 .booking-cta{
     margin-top: 40px;
@@ -179,4 +182,7 @@ body{
     color: #fff;
     cursor: pointer;
     background-color: rgb(121 77 101);
+}
+.cancel-button a{
+    text-decoration:none;
 }
